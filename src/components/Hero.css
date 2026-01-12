@@ -1,0 +1,39 @@
+.hero {
+  background: url("https://images.unsplash.com/photo-1604881991720-f91add269bed")
+    center/cover no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.hero-text {
+  color: rgb(253, 254, 254);
+  max-width: 500px;
+}
+
+.hero-text span {
+  color: #f8cb05;
+}
+
+.hero-buttons button {
+  margin-right: 15px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.learn {
+  background: #1f6ddf;
+  color: white;
+}
+
+.involved {
+  background: #f7b500;
+}
+.hero {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px; /* IMPORTANT */
+}

@@ -1,0 +1,35 @@
+.navbar {
+  background: #102a8a;
+  display: flex;
+  align-items: center;
+  padding: 5px 60px;
+  color: rgb(225, 225, 226);
+}
+
+.logo {
+  flex: 1;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.menu li {
+  cursor: pointer;
+}
+
+.donate-btn {
+  background: #f7b500;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.logo img {
+  height: 50px;  /* adjust size */
+  width: auto;
+}
