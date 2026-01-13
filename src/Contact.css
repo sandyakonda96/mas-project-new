@@ -1,0 +1,86 @@
+/* Full page background */
+.contact-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #8a8b8c, #5f6a6d, #2c5364);
+  color: #ffffff;
+  padding: 50px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contact details box */
+.contact-container {
+  max-width: 600px;
+  width: 100%;
+  background: linear-gradient(135deg, #fff6ec, #ffe8d6);
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+  color: #3a2e2e;
+  text-align: center;
+  border: 2px solid #7568ff;
+}
+
+/* Page title */
+.contact-container h1 {
+  font-size: 38px;
+  color: #fcb707;
+  margin-bottom: 22px;
+}
+
+/* Contact info text */
+.contact-container p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #4a3b3b;
+}
+
+/* Form section */
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form h2 {
+  font-size: 26px;
+  color: #2c5364;
+  margin-bottom: 18px;
+}
+
+/* Form layout */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #55555b;
+  font-size: 16px;
+  width: 100%;
+  outline: none;
+  background: #fffaf5;
+}
+
+/* Submit button */
+.contact-form button {
+  padding: 14px;
+  background: linear-gradient(90deg, #7118ff, #3705ec);
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Button hover */
+.contact-form button:hover {
+  background: linear-gradient(90deg, #4a30f4, #4023d3);
+  transform: scale(1.05);
+}

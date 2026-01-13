@@ -1,0 +1,60 @@
+.about-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  padding: 60px 20px;
+
+  /* FULL PAGE COLOR */
+  background: linear-gradient(135deg, #b8f0eb, #60f399);
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 900px;
+  width: 100%;
+  background: linear-gradient(135deg, #ffffff, #f3f6ff);
+  padding: 45px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Main heading */
+.about-container h1 {
+  font-size: 38px;
+  color: #2575fc;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Sub headings */
+.about-container h2 {
+  font-size: 26px;
+  color: #6a11cb;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Paragraph text */
+.about-container p {
+  font-size: 16.5px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  color: #444;
+}
+
+/* Small inline images */
+.inline-icon {
+  width: 34px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+/* Optional hover effect */
+.about-container:hover {
+  transform: translateY(-3px);
+  transition: 0.3s ease;
+}

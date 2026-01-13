@@ -1,10 +1,42 @@
-function Impact() { return ( <section className="Our impact">
-  <div className="impact-title">
-        <h2>Our Impact</h2>
+function Impact() {
+  return (
+    <section className="impact-section">
+      <h2 className="impact-heading">Our Impact</h2>
+      <p className="impact-subtitle">
+        Creating measurable change across communities
+      </p>
+
+      <div className="impact-grid">
+        <div className="impact-card">
+          <span className="impact-icon">🎓</span>
+          <h3>5,000+</h3>
+          <p>Children Educated</p>
+        </div>
+
+        <div className="impact-card">
+          <span className="impact-icon">🌍</span>
+          <h3>200+</h3>
+          <p>Communities Reached</p>
+        </div>
+
+        <div className="impact-card">
+          <span className="impact-icon">🤝</span>
+          <h3>350+</h3>
+          <p>Volunteers</p>
+        </div>
+
+        <div className="impact-card">
+          <span className="impact-icon">❤️</span>
+          <h3>1M+</h3>
+          <p>Lives Impacted</p>
+        </div>
       </div>
-   <div>5,000+ <p>Children Educated</p></div>
-    <div>200+ <p>Communities Reached</p></div> 
-    <div>350+ <p>Volunteers</p></div> <div>1M+ <p>Lives Impacted</p></div> </section> ); 
-    } 
-    
-    export default Impact;
+
+      <div className="impact-cta">
+        <button className="impact-main-btn">Explore Our Work</button>
+      </div>
+    </section>
+  );
+}
+
+export default Impact;

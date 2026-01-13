@@ -1,39 +1,116 @@
 .hero {
-  background: url("https://images.unsplash.com/photo-1604881991720-f91add269bed")
-    center/cover no-repeat;
-  height: 500px;
+  height: 90vh;
   display: flex;
   align-items: center;
-  padding-left: 60px;
-}
-
-.hero-text {
-  color: rgb(253, 254, 254);
-  max-width: 500px;
-}
-
-.hero-text span {
-  color: #f8cb05;
-}
-
-.hero-buttons button {
-  margin-right: 15px;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 5px;
-}
-
-.learn {
-  background: #1f6ddf;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f766e, #22c55e, #f59e0b);
   color: white;
+  text-align: left;
+  padding: 0 20px;
 }
 
-.involved {
-  background: #f7b500;
+/* Flex container for text + image */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
 }
-.hero {
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 10px; /* IMPORTANT */
+
+/* Hero text */
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+  color: #fcd34d; /* yellow highlight */
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.hero-buttons .learn {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-buttons .learn:hover {
+  background: #16a34a;
+  transform: translateY(-3px);
+}
+
+.hero-buttons .involved {
+  background: #f59e0b;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-buttons .involved:hover {
+  background: #d97706;
+  transform: translateY(-3px);
+}
+
+/* Hero Image */
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  object-fit: cover;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 1024px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-image img {
+    max-width: 90%;
+  }
 }
