@@ -18,7 +18,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        {/* Home page with all sections */}
+        {/* Home page */}
         <Route
           path="/"
           element={
@@ -33,19 +33,10 @@ function App() {
           }
         />
 
-        {/* About Us page */}
         <Route path="/about" element={<AboutUs />} />
-
-        {/* Programs page */}
         <Route path="/programs" element={<Programs />} />
-
-        {/* Events page */}
         <Route path="/events" element={<Events />} />
-
-        {/* Blog page */}
         <Route path="/blog" element={<Blog />} />
-
-        {/* Contact page */}
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
