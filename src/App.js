@@ -23,10 +23,7 @@ function App() {
           path="/"
           element={
             <>
-              {/* ✅ TEST HEADING */}
-              <h1 style={{ textAlign: "center", color: "red" }}>
-                THIS IS MY NEW PROJECT
-              </h1>
+              
 
               <section id="home"><Hero /></section>
               <section id="about"><About /></section>

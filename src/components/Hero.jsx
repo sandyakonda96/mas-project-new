@@ -10,10 +10,7 @@ function Hero() {
             <span>Enriching Lives</span>
           </h1>
 
-          {/* 🔴 DEPLOY TEST LINE */}
-          <p style={{ color: "red", fontSize: "14px" }}>
-            🔴 DEPLOY TEST – THIS IS NEW CODE
-          </p>
+          
 
           <b>
             <p>
